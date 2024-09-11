@@ -1,0 +1,22 @@
+
+
+
+.team-leader-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .team-leader-social-links a {
+    color: #592202;
+    transition: color 0.3s;
+  }
+  
+  .team-leader-social-links a:hover {
+
+    color: #D96704;
+  }
+
+
+

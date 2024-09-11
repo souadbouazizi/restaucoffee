@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --primary-color:#592202;
+  --second-color:#D96704;
+  --text-color:#323232;
+
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: ar(--text-color);
+  letter-spacing: 0.2rem;;
+}
+
+code {
+  font-family: "Poppins", sans-serif;
+    
+}
+a{
+  color: var(--second-color) !important;
+  text-decoration: none !important;
+}
+a:hover{
+  color: var(--primary-color) !important;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.btn-primary{
+  background-color: var(--second-color) !important; 
+  color: white !important;
+}
+.btn-primary:hover{
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+.btn-outline-primary{
+  border-color: var(--second-color) !important;
+  color: var(--second-color) !important;
+}
+.btn-outline-primary:hover{
+  border-color: var(--primary-color) !important;
+  background-color: var(--second-color) !important;
+  color: white !important;
+}
